@@ -1,7 +1,7 @@
-import "@/Components/Stars/Stars.css";
+import "@/Components/Ratings/Ratings.css";
 
-import OrangeStar from "@/Assets/Images/Components/Stars/StarsOrange.png";
-import EmptyStar from "@/Assets/Images/Components/Stars/StarsWhite.png";
+import FullStar from "@/Assets/Images/Components/Ratings/FullStar.png";
+import EmptyStar from "@/Assets/Images/Components/Ratings/EmptyStar.png";
 
 function Ratings({ rate }) {
 
@@ -17,12 +17,12 @@ function Ratings({ rate }) {
 
                     if (number + 1 > rate) {
                         return (
-                            <img key={number} className="Star" src={EmptyStar} alt="Etoile Blanche" />
+                            <img key={number} className="Star" src={EmptyStar} alt="Etoile Vide" />
                         )
 
                     } else {
                         return (
-                            <img key={number} className="Star" src={OrangeStar} alt="Etoile Orange" />
+                            <img key={number} className="Star" src={FullStar} alt="Etoile Pleine" />
 
                         )
                     }

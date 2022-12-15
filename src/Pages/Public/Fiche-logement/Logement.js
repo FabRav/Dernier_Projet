@@ -10,7 +10,7 @@ import "@/Pages/Public/Fiche-logement/Logement.css";
 import Carrousel from "@/Components/Carrousel/Carrousel";
 import Profile from "@/Components/Profile/Profile"
 import Tag from "@/Components/Tag/Tag"
-import Stars from "@/Components/Stars/Stars"
+import Ratings from "@/Components/Ratings/Ratings"
 import Collapse from "@/Components/Collapse/Collapse";
 
 // Fonction principale de la page Fiche-Logement
@@ -77,7 +77,7 @@ const Logement = () => {
                         <Profile host={Logementinfo.host} />
                     </li>
                     <li>
-                        <Stars rate={Logementinfo.rating} />
+                        <Ratings rate={Logementinfo.rating} />
                     </li>
                 </ul>
             </div>
