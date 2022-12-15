@@ -1,4 +1,3 @@
-/** Import des modules nécessaires */
 import ListeLogements from "@/Assets/Api/logements.json";
 
 const RetrieveOneLogement = async (id) => {

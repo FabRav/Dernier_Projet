@@ -13,7 +13,7 @@ function Ratings({ rate }) {
         <div className="Rating_Stars">
 
             {
-                StarNumber.map((_, number) => {
+                StarNumber.map((onsenfou, number) => {
 
                     if (number + 1 > rate) {
                         return (
