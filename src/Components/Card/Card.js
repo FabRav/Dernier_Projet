@@ -1,5 +1,4 @@
 import React from "react";
-
 import "@/Components/Card/Card.css";
 
 function Card({ id, picture, title }) {

@@ -37,7 +37,7 @@
 
 /* format mobile */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
 
     .Banner_Container {
         height: 111px;

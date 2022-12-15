@@ -30,8 +30,10 @@ const Carrousel = ({ slider }) => {
                     slider.map((img, index) => {
                         if (index === CurrentIndex) {
                             return (<img className="Slider_Img" key={index} src={img} alt="appartement" />)
+                        } else {
+                            return ("");
                         }
-                        else return (<></>)
+
                     })
                 }
             </div>
@@ -43,14 +45,3 @@ const Carrousel = ({ slider }) => {
 }
 
 export default Carrousel;
-
-/*
-
-{slider.map((img, index) => (
-                
-    <div className="Slider_Img" key={index}>
-        {index === CurrentIndex && <img className="Slider_Img" src={img} alt="appartement" />}
-    </div>
-))}
-
-*/

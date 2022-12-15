@@ -9,7 +9,7 @@ function Profile({ host }) {
         <div className="Profile">
             <div className="Profile_Name">{name}</div>
             <div className="Profile_Picture_Box">
-                <img className="Profile_Picture" src={picture} alt="" />
+                <img className="Profile_Picture" src={picture} alt="Img profil" />
             </div>
         </div>
     );

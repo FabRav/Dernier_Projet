@@ -7,8 +7,6 @@ import '@/App.css';
 
 import PublicRouter from '@/Pages/Public/PublicRouter';
 
-// creation du routing principal
-
 const App = () => {
 
   return (
@@ -21,7 +19,5 @@ const App = () => {
     </div>
   );
 }
-
-// export de la fonction app pour appel dans l'index
 
 export default App;

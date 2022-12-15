@@ -9,8 +9,6 @@ import CollapseDown from "@/Assets/Images/Components/Collapse/CollapseDown.png";
 
 function Collapse({ title, description }) {
 
-    // Création d'une condition avec un état qui change lorsque l'on clique sur l'image 
-
     const [open, setOpen] = useState(false);
 
     const CollapseOnClick = () => {

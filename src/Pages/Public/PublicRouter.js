@@ -1,5 +1,3 @@
-// import des modules necessaires
-
 import React from 'react';
 import { Routes, Route, Navigate } from "react-router-dom"
 import { Home, Apropos, Logement } from "@/Pages/Public/Index"
@@ -8,7 +6,6 @@ import Layout from "@/Layouts/Layout"
 import Erreur404 from "@/Pages/Public/Erreur-404/Error404"
 
 // routing des pages publique
-
 const PublicRouter = () => {
     return (
         <Routes>
@@ -22,7 +19,5 @@ const PublicRouter = () => {
         </Routes>
     );
 };
-
-// export du sous routage pour le router principal
 
 export default PublicRouter;

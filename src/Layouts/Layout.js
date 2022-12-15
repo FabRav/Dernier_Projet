@@ -1,10 +1,8 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-
-import "@/Layouts/Layout.css";
-
 import Header from "@/Layouts/Header/Header";
 import Footer from "@/Layouts/Footer/Footer";
+import "@/Layouts/Layout.css";
 
 const Layout = () => {
     return (

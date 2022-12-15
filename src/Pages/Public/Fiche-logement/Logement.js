@@ -93,6 +93,4 @@ const Logement = () => {
     );
 }
 
-// export de la page Logement pour l'appeler dans le router 
-
 export default Logement;

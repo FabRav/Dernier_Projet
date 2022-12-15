@@ -13,7 +13,7 @@ const Header = () => {
 
     return (
         <header>
-            <img src={Logo} alt="Logo" />
+            <img src={Logo} alt="KasaLogo" />
             <nav>
                 <NavLink to="/home" className="Link" style={({ isActive }) => isActive ? { borderBottom: "1px solid #FF6060" } : { borderBottom: "unset" }}>Accueil</NavLink>
                 <NavLink to="/a-propos" className="Link" style={({ isActive }) => isActive ? { borderBottom: "1px solid #FF6060" } : { borderBottom: "unset" }}>À propos</NavLink>
