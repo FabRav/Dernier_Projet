@@ -4,7 +4,7 @@
 }
 
 .Load_Img {
-    opacity: 0%;
+    opacity: 10%;
 }
 
 .Components_Container {
@@ -26,7 +26,7 @@
     font-weight: 500;
 }
 
-.Titles_Tags_container h3 {
+.Titles_Tags_container h2 {
     color: #FF6060;
     font-size: 15px;
     font-weight: 500;
@@ -80,7 +80,7 @@
         padding-bottom: 5px;
     }
 
-    .Titles_Tags_container h3 {
+    .Titles_Tags_container h2 {
         font-size: 14px;
     }
 

@@ -58,7 +58,7 @@ const Logement = () => {
 
 
 
-    if (Loading) return (<h2 className="Load_Img">Les données sont en train de charger</h2>)
+    if (Loading) return (<p className="Load_Img">Les données sont en train de charger</p>)
     return (
         <section className="SectionLogement">
             <Carrousel slider={Logementinfo.pictures} />
@@ -66,7 +66,7 @@ const Logement = () => {
                 <ul className="Titles_Tags_container">
                     <li>
                         <h1>{Logementinfo.title}</h1>
-                        <h3>{Logementinfo.location}</h3>
+                        <h2>{Logementinfo.location}</h2>
                     </li>
                     <li>
                         <Tag tags={Logementinfo.tags} />
