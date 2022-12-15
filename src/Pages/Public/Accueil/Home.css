@@ -1,0 +1,39 @@
+/* format deskopt */
+
+.Home {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Appart_Box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100%;
+    gap: 50px 50px;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    padding: 56px 50px;
+    margin-top: 43px;
+}
+
+/* format tablette responsive */
+
+@media screen and (max-width: 1024px) {
+    .Appart_Box {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+/* format mobile responsive  */
+
+@media screen and (max-width: 640px) {
+
+    .Appart_Box {
+        grid-template-columns: 1fr;
+        gap: 20px 0px;
+        padding: 0px 0px;
+        background-color: unset;
+    }
+}

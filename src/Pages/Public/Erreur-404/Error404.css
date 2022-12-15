@@ -1,0 +1,41 @@
+.Error_Container {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.Error_Title {
+    color: #FF6060;
+    font-size: 288px;
+    font-weight: 700;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.Error_Desc {
+    color: #FF6060;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.Error_Link {
+    display: block;
+    font-size: 18px;
+    color: #FF6060;
+    text-decoration: underline;
+    margin-top: 182px;
+    margin-bottom: 50px;
+}
+
+/* format tablette et mobile */
+
+@media screen and (max-width: 1024px) {
+
+    .Error_Title {
+        font-size: 96px;
+    }
+
+    .Error_Desc {
+        font-size: 14px;
+    }
+}

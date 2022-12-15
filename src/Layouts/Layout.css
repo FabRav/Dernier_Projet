@@ -1,0 +1,34 @@
+.Global_Content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+/* format tablette responsive */
+
+@media only screen and (max-width : 1024px) {
+    .Global_Content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* format mobile responsive */
+
+
+@media only screen and (max-width : 640px) {
+    .Global_Content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    main {
+        margin-top: 15px;
+    }
+
+}

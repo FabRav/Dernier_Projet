@@ -1,0 +1,53 @@
+.Banner_Container {
+    position: relative;
+    height: 223px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.Banner_Container h1 {
+    position: absolute;
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.Banner_Picture {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.Banner_Effects {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+    border-radius: 25px;
+    opacity: 30%;
+}
+
+/* format mobile */
+
+@media screen and (max-width: 640px) {
+
+    .Banner_Container {
+        height: 111px;
+        margin-top: -10px;
+    }
+
+    .Banner_Container h1 {
+        text-align: start;
+        font-size: 24px;
+        left: 14px;
+        transform: translateY(-50%);
+    }
+}

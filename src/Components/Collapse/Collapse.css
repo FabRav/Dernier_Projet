@@ -1,0 +1,55 @@
+.Collapse {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 14px;
+    color: white;
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    margin-top: 28px;
+}
+
+.Collapse_Title_Arrow_Box {
+    display: flex;
+    flex-direction: row;
+    height: 47px;
+    background-color: #FF6060;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.Collapse_title {
+    font-weight: 300;
+    margin: 0;
+    font-size: 18px;
+
+}
+
+.Collapse_Img {
+    width: 18px;
+}
+
+.Collapse_Description {
+
+    font-size: 17px;
+    color: #ff6060;
+    padding: 30px 12px 27px 20px;
+}
+
+@media screen and (max-width: 640px) {
+    .Collapse_Title_Arrow_Box {
+        height: 30px;
+        padding: 0 15px;
+    }
+
+    .Collapse_Title_Arrow_Box_title {
+        font-size: 13px;
+    }
+
+    .Collapse_Description {
+
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,46 @@
+.About {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.About h3 {
+    font-size: 24px;
+}
+
+.About .Collapse_Description {
+    font-size: 24px;
+}
+
+.About ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .About {
+        background-color: unset;
+        padding: 0px 0px;
+        margin-top: 43px;
+        height: 100%;
+    }
+
+    .About ul {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+
+@media screen and (max-width: 640px) {
+    .About .Collapse_Description {
+        font-size: 14px;
+    }
+
+    .About h3 {
+        font-size: 16px;
+    }
+}

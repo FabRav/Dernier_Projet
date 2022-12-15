@@ -1,0 +1,32 @@
+footer {
+    height: 209px;
+    width: 100%;
+    background-color: black;
+    margin-top: 28px;
+}
+
+.Box {
+    display: flex;
+    flex-direction: column;
+    height: 145px;
+    padding: 24px 0px;
+}
+
+.Box img {
+    display: block;
+    margin: auto;
+}
+
+.Box p {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+/* format mobile responsive */
+
+@media screen and (max-width: 640px) {
+    .Box p {
+        font-size: 16px;
+    }
+}

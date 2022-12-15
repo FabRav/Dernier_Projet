@@ -1,0 +1,74 @@
+.Carrousel_Container {
+
+
+    border-radius: 10px;
+    height: 415px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+    /*
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 415px;
+    margin: 2% 0;
+    overflow: hidden;
+    background-color: rgb(94, 165, 73);
+    */
+}
+
+.Arrow_Left {
+    width: 47px;
+    height: 80px;
+    object-fit: cover;
+    position: absolute;
+    left: 20px;
+    top: 40%;
+}
+
+.Arrow_Right {
+    width: 47px;
+    height: 80px;
+    object-fit: cover;
+    position: absolute;
+    right: 20px;
+    top: 40%;
+}
+
+.Slider_Img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.Index_Img {
+    color: white;
+    position: absolute;
+    left: 47%;
+    bottom: 10%;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 640px) {
+
+    .Carrousel_Container {
+        border-radius: 10px;
+        height: 255px;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .Arrow_Left {
+        width: 15px;
+        height: 25px;
+        top: 45%;
+    }
+
+    .Arrow_Right {
+        width: 15px;
+        height: 25px;
+        top: 45%;
+    }
+}

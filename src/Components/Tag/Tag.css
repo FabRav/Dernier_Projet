@@ -1,0 +1,33 @@
+.Tag_Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.Tag {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #FF6060;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    height: 22px;
+    min-width: 84px;
+    padding: 3px 15px;
+}
+
+@media screen and (max-width: 640px) {
+    .Tag {
+        font-size: 10px;
+    }
+
+    .Tag_Container {
+        gap: 5px;
+    }
+}
