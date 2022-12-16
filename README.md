@@ -6,10 +6,6 @@
 
 Le sujet du projet 7 du parcours Développeur web chez Openclassrooms porte sur la refonte d'une plateforme web de location d'appartements pour Kasa. Le site doit être créé avec React à l'aide des données de location dans un fichier JSON. 
 
-## Premiers pas avec l'application Create React
-
-Ce projet a été démarré avec [Create React App](https://github.com/facebook/create-react-app).
-
 ## Objectifs, Spécifications et Compétences attribuées
 
 #### Objectifs
