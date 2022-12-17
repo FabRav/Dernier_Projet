@@ -26,10 +26,6 @@ Le sujet du projet 7 du parcours Développeur web chez Openclassrooms porte sur 
 -   Gestion des événements
 -   Utilisation des Listes
 
-Il est également recommandé, mais pas imposé, d’utiliser des composants
-fonctionnels plutôt que des composants classes.
-
-
 #### Compétences attribuées
 
 -   Initialiser une application web avec le framework React
